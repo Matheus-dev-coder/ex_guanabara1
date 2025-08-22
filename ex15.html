@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hospedagem de video</title>
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 1px;
+            border-bottom: 1px solid goldenrod;
+        }
+        p{
+             text-decoration: double;
+             text-indent: 6px;
+        }
+        video{
+            box-shadow: 0px 2px 5px;
+            border-radius: 6px;
+            display: flex;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Um video aleatorio.</h1>
+    <p>
+       Este video e uma demostrção.
+    </p>
+    <div class="video">
+    <video autoplay>
+        <source src="midia/Editmidia1.mp4" type="video/mp4">
+        <source src="midia/Editmidia1.miv" type="video/mp4">
+        <source src="midia/Editmidia1.webm" type="video/webm">
+        <source src="midia/Editmidia1.ogv" type="video/ogg">
+        <p>Seu navegador não tem suporte para videos</p>
+    </video>
+    </div>
+    <h1>Subindo videos do YT</h1>
+   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/63589611?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:500px;height:100%;" title="Shingeki no Kyojin Opening 1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
