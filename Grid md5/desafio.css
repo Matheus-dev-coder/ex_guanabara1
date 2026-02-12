@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 70px 200px 70px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.topo{
+    background-color: brown;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
+.menu{
+    background-color: blanchedalmond;
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}
+.pricipal{
+    background-color: blueviolet;
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+}
+.secundario{
+    background-color: aquamarine;
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+.rodape{
+    background-color: chocolate;
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+}
